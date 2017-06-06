@@ -25,7 +25,7 @@ SECRET_KEY = 'e0j9%k4&%na9_r28w@*wu(sj*s0rxv6em1t-!rx6c5+yj-lr5^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['songof5ky.pythonanywhere.com']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'social_auth',
     'main',
 ]
 
